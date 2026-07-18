@@ -7,7 +7,7 @@ from cmail import send_mail
 from stoken import endata, dndata
 from mysql.connector import (connection)
 import re
-mydb = connection.MySQLConnection(user='root', password='BKoushik@09',
+mydb = connection.MySQLConnection(user='root', password='',
                                  host='localhost',
                                  database='snm')
 app = Flask(__name__)
